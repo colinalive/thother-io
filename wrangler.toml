@@ -1,6 +1,6 @@
 name = "thother-io"
-main = "src/index.ts" # Standard for Workers, Next.js on Workers needs a specific setup
-compatibility_date = "2023-01-01"
+compatibility_date = "2024-03-01"
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
 MY_VARIABLE = "Hello from Wrangler!"
@@ -14,9 +14,10 @@ database_id = "''" # Placeholder, to be replaced
 binding = "THOTHER_IO_BUCKET"
 bucket_name = "thother-io"
 
-[site]
-bucket = ".next/static" # Next.js output directory
-entrypoint = "worker.js" # This is typically the entrypoint for the Worker that serves the Next.js app
+# [site]
+# bucket = ".next/static" # Next.js output directory
+# entrypoint = "worker.js" # This is typically the entrypoint for the Worker that serves the Next.js app
 
-[build]
-command = "npm run build"
+# [build]
+# command = "npm run build"
+

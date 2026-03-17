@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone', // Required for Cloudflare Pages with Next.js
-  experimental: {
-    appDir: true,
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+        config.resolve.fallback = {
+            ...config.resolve.fallback,
+            async_hooks: false,
+        };
+    }
+    return config;
   },
 };
 
