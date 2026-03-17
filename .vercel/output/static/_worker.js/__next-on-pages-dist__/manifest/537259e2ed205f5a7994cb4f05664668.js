@@ -1,0 +1,1 @@
+var _=self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{},"appUsingSizeAdjust":false,"pagesUsingSizeAdjust":false}',s=self.__REACT_LOADABLE_MANIFEST="{}";export{_ as __NEXT_FONT_MANIFEST,s as __REACT_LOADABLE_MANIFEST};

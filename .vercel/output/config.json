@@ -42,7 +42,7 @@
       ],
       "dest": "/index.rsc",
       "headers": {
-        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
       },
       "continue": true,
       "override": true
@@ -58,7 +58,7 @@
       ],
       "dest": "/$1.rsc",
       "headers": {
-        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url"
+        "vary": "RSC, Next-Router-State-Tree, Next-Router-Prefetch"
       },
       "continue": true,
       "override": true
@@ -127,7 +127,7 @@
       "handle": "hit"
     },
     {
-      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|T\\-dba2U1Fltn28PeUjx_9)/.+",
+      "src": "/_next/static/(?:[^/]+/pages|pages|chunks|runtime|css|image|media|DnH_g0Ba5wlVxPq\\-11GWg)/.+",
       "headers": {
         "cache-control": "public,max-age=31536000,immutable"
       },
@@ -229,7 +229,7 @@
     }
   },
   "framework": {
-    "version": "13.5.6"
+    "version": "14.2.24"
   },
   "crons": []
 }

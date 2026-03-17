@@ -6,7 +6,13 @@
   "assets": [],
   "framework": {
     "slug": "nextjs",
-    "version": "13.5.6"
+    "version": "14.2.24"
   },
-  "environment": {}
+  "environment": {
+    "__NEXT_BUILD_ID": "DnH_g0Ba5wlVxPq-11GWg",
+    "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "/wVrH6qavuKNwgNRmVlAnDmr4neTylCivl1XuUKGwHU=",
+    "__NEXT_PREVIEW_MODE_ID": "e789336e65443185016a2d31d8a3c2b7",
+    "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "d3ea9eed149941152471b53bfaf2363035f6d109f036e1de88443d60b9ac77ea",
+    "__NEXT_PREVIEW_MODE_SIGNING_KEY": "9fb62ee5261f2d80f5e951c4a96c3a2a7d6c19fcb5991230de880829869ea9ec"
+  }
 }
