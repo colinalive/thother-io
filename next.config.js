@@ -1,14 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-        config.resolve.fallback = {
-            ...config.resolve.fallback,
-            async_hooks: false,
-        };
-    }
-    return config;
-  },
+  output: 'export', // Generate static HTML/JS/CSS
+  distDir: 'out',
 };
 
 module.exports = nextConfig;

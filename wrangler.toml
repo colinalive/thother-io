@@ -1,23 +1,16 @@
 name = "thother-io"
+main = "src/index.ts"
 compatibility_date = "2024-03-01"
 compatibility_flags = ["nodejs_compat"]
-
-[vars]
-MY_VARIABLE = "Hello from Wrangler!"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "thother-io"
-database_id = "''" # Placeholder, to be replaced
+database_id = "215ef373-b813-499b-8e59-430636fb9c84"
 
 [[r2_buckets]]
 binding = "THOTHER_IO_BUCKET"
 bucket_name = "thother-io"
 
-# [site]
-# bucket = ".next/static" # Next.js output directory
-# entrypoint = "worker.js" # This is typically the entrypoint for the Worker that serves the Next.js app
-
-# [build]
-# command = "npm run build"
-
+[observability]
+enabled = true
