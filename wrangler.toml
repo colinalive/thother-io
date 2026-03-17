@@ -1,0 +1,22 @@
+name = "thother-io"
+main = "src/index.ts" # Standard for Workers, Next.js on Workers needs a specific setup
+compatibility_date = "2023-01-01"
+
+[vars]
+MY_VARIABLE = "Hello from Wrangler!"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "thother-io"
+database_id = "''" # Placeholder, to be replaced
+
+[[r2_buckets]]
+binding = "THOTHER_IO_BUCKET"
+bucket_name = "thother-io"
+
+[site]
+bucket = ".next/static" # Next.js output directory
+entrypoint = "worker.js" # This is typically the entrypoint for the Worker that serves the Next.js app
+
+[build]
+command = "npm run build"
