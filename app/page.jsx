@@ -17,11 +17,11 @@ export default function Home() {
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
           <Link href="/" className="group flex items-center transition-all duration-700">
-            <div className="w-12 h-12 md:w-16 md:h-16 relative overflow-hidden group-hover:scale-110 transition-transform">
+            <div className="w-12 h-12 md:w-16 md:h-16 relative overflow-hidden group-hover:scale-110 transition-transform flex items-center justify-center">
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-logo-v3.jpg" 
                 alt="THOTHER Logo"
-                className="w-full h-full object-contain"
+                className="w-full h-full object-contain mix-blend-screen"
               />
             </div>
           </Link>
@@ -223,11 +223,11 @@ export default function Home() {
         
         <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
           <div className="text-left space-y-12">
-             <div className="w-20 h-20 relative overflow-hidden mb-8 grayscale opacity-50 hover:opacity-100 transition-opacity">
+             <div className="w-20 h-20 relative overflow-hidden mb-8 grayscale opacity-50 hover:opacity-100 transition-opacity flex items-center justify-center">
                <img 
                  src="https://claw.starryambition.com/8711438752/202603/thother-logo-v3.jpg" 
                  alt="THOTHER Logo"
-                 className="w-full h-full object-contain"
+                 className="w-full h-full object-contain mix-blend-screen"
                />
              </div>
              <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
