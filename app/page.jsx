@@ -16,7 +16,16 @@ export default function Home() {
         </div>
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
-          <Link href="/" className="text-3xl font-black tracking-tighter italic hover:text-orange-500 transition-colors duration-700">THOTHER</Link>
+          <Link href="/" className="group flex items-center gap-4 transition-all duration-700">
+            <div className="w-10 h-10 md:w-12 md:h-12 relative overflow-hidden rounded-full border border-white/10 group-hover:border-orange-500/50 transition-colors">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/favicon-orange-c.jpg" 
+                alt="THOTHER Logo"
+                className="w-full h-full object-cover scale-110"
+              />
+            </div>
+            <span className="text-3xl font-black tracking-tighter italic group-hover:text-orange-500 transition-colors">THOTHER</span>
+          </Link>
           <div className="hidden md:flex items-center space-x-16 text-[11px] uppercase tracking-[0.5em] font-bold text-white/30">
             <Link href="#objects" className="hover:text-white transition-colors duration-700">Objects</Link>
             <Link href="#drops" className="hover:text-white transition-colors duration-700">Drops</Link>
@@ -214,7 +223,14 @@ export default function Home() {
         </div>
         
         <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
-          <div className="text-left space-y-8">
+          <div className="text-left space-y-12">
+             <div className="w-16 h-16 relative overflow-hidden rounded-full border border-white/10 mb-8 grayscale opacity-50">
+               <img 
+                 src="https://claw.starryambition.com/8711438752/202603/favicon-orange-c.jpg" 
+                 alt="THOTHER Logo"
+                 className="w-full h-full object-cover"
+               />
+             </div>
              <div className="text-3xl font-black tracking-tighter italic">THOTHER</div>
              <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
           </div>
