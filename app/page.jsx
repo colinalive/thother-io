@@ -244,7 +244,7 @@ export default function Home() {
       <section id="drops" className="py-80 px-6 bg-black text-white relative overflow-hidden">
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-start relative z-10">
           <div className="space-y-32">
-            <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Limited <br/> Drops.</h2>
+            <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Drops.</h2>
             
             <div className="flex items-start gap-24 pt-32 text-white">
                <div className="space-y-2">
