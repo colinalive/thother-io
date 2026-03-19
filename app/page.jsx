@@ -226,8 +226,7 @@ export default function Home() {
 
       {/* 5. ATMOSPHERE MOOD 2 (Lattice / Geometry / Sculpture) */}
       <section 
-        className="h-screen bg-black flex items-center justify-center relative overflow-hidden group cursor-zoom-in"
-        onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-atmosphere-bg-v20.jpg')}
+        className="h-screen bg-black flex items-center justify-center relative overflow-hidden group"
       >
          <div className="absolute inset-0 opacity-[0.15] grayscale transition-all duration-1000 group-hover:opacity-30">
             <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-atmosphere-bg-v20.jpg')] bg-cover bg-center scale-110 group-hover:scale-100 transition-transform duration-[10000ms]"></div>
