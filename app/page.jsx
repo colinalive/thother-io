@@ -55,26 +55,26 @@ export default function Home() {
           </div>
           
           <div className="space-y-16 max-w-xl">
-            <div className="space-y-4">
-              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+            <div className="space-y-8">
+              <p className="text-xl md:text-3xl font-light text-white/80 leading-tight">
                 Digitally shaped. <br/> Physically produced.
               </p>
             </div>
 
-            <div className="space-y-4">
-              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+            <div className="space-y-8">
+              <p className="text-xl md:text-3xl font-light text-white/80 leading-tight">
                 Not mass-made. <br/> Not trend-driven.
               </p>
             </div>
 
-            <div className="space-y-4">
-              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+            <div className="space-y-8">
+              <p className="text-xl md:text-3xl font-light text-white/80 leading-tight">
                 Design comes first.
               </p>
             </div>
             
             <div className="pt-20">
-              <p className="text-lg md:text-xl tracking-[0.4em] uppercase text-orange-500/60 italic font-light">
+              <p className="text-xl md:text-2xl tracking-[0.4em] uppercase text-orange-500/80 italic font-light">
                 Between what exists — <br/> and what comes next.
               </p>
             </div>
