@@ -77,8 +77,12 @@ export default function Home() {
 
             {/* SUPPORTING VISUALS (Fluid Hierarchy) */}
             <div className="md:col-span-3 flex flex-col gap-8">
-               <div className="aspect-[4/5] bg-neutral-950 relative group overflow-hidden grayscale opacity-20 hover:opacity-60 transition-all duration-1000">
-                  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1549298916-b41d501d3772?q=80&w=1000')] bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"></div>
+               <div className="aspect-[4/5] bg-neutral-950 relative group overflow-hidden grayscale hover:grayscale-0 opacity-40 hover:opacity-100 transition-all duration-1000">
+                  <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_bag_magenta.jpg')] bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"></div>
+                  <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-1000"></div>
+                  <div className="absolute bottom-6 left-6 opacity-0 group-hover:opacity-100 transition-opacity duration-700">
+                     <p className="text-[10px] uppercase tracking-[0.4em] font-black bg-black/60 backdrop-blur-md px-4 py-2">The Magenta Blob</p>
+                  </div>
                </div>
                <div className="aspect-square bg-neutral-950 relative group overflow-hidden grayscale opacity-20 hover:opacity-60 transition-all duration-1000">
                   <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?q=80&w=1000')] bg-cover bg-center transition-transform duration-1000 group-hover:scale-110"></div>
