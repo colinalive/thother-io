@@ -241,7 +241,7 @@ export default function Home() {
       </section>
 
       {/* 6. DROPS SECTION (Editorial Urgency) */}
-      <section id="drops" className="py-80 px-6 bg-black text-white relative overflow-hidden">
+      <section id="drops" className="pt-80 pb-0 px-6 bg-black text-white relative overflow-hidden">
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-start relative z-10">
           <div className="space-y-32">
             <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Drops.</h2>
@@ -279,9 +279,9 @@ export default function Home() {
       </section>
 
       {/* 7. FOOTER (Cinematic Closure) */}
-      <footer className="py-24 px-6 text-center bg-black">
+      <footer className="pt-0 pb-40 px-6 text-center bg-black">
         <div className="flex flex-col items-center">
-          <div className="w-[120px] md:w-[180px] opacity-100 mb-16 md:mb-32 relative z-0">
+          <div className="w-[220px] md:w-[380px] opacity-100 mb-12 md:mb-20 relative z-0">
             <img 
               src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-footer-v28.jpg" 
               alt="THOTHER Combined Logo"
