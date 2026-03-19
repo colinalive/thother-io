@@ -123,17 +123,10 @@ export default function Home() {
                  {/* Macro Overlay */}
                  <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
               </div>
-              <div className="aspect-[3/4] bg-neutral-950 relative overflow-hidden border border-white/5 opacity-40 group">
-                 {/* Visual Representation of Wireframe */}
-                 <div className="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-orange-500/40 via-transparent to-transparent"></div>
-                 <div className="absolute inset-0 flex items-center justify-center p-12">
-                    <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none" className="stroke-white/20 group-hover:stroke-orange-500/40 transition-colors duration-1000">
-                       <path d="M10 50 L50 10 L90 50 L50 90 Z" strokeWidth="0.5"/>
-                       <path d="M50 10 L50 90" strokeWidth="0.5"/>
-                       <path d="M10 50 L90 50" strokeWidth="0.5"/>
-                    </svg>
-                 </div>
-              </div>
+             <div className="aspect-[3/4] bg-neutral-950 relative overflow-hidden border border-white/5 opacity-40 group">
+                <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_red_objects_shelf.jpg')] bg-cover bg-center grayscale hover:grayscale-0 transition-all duration-1000 group-hover:scale-110"></div>
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
+                {/* Visual Representation of Wireframe - Overlaying on real image now */}
            </div>
         </div>
       </section>
