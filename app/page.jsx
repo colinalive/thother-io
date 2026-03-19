@@ -150,10 +150,10 @@ export default function Home() {
               {/* MAIN DOMINANT IMAGE */}
               <div 
                 className="relative group overflow-hidden aspect-[4/5] md:aspect-[16/10] bg-[#050505] grayscale border border-white/5 cursor-zoom-in"
-                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')}
               >
                 <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg" 
+                  src="https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg" 
                   alt="Primary Object Sculpture"
                   className="w-full h-full object-cover transition-all duration-[3000ms] group-hover:scale-110 opacity-30 group-hover:opacity-60"
                 />
@@ -168,10 +168,10 @@ export default function Home() {
             <div className="w-full md:w-[30%] space-y-32 self-start md:pt-60">
               <div 
                 className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-100 transition-all duration-1000 cursor-zoom-in"
-                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-hero-v15.jpg')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg')}
               >
                 <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-object-hero-v15.jpg" 
+                  src="https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg" 
                   alt="Secondary Sculpture detail"
                   className="w-full h-full object-cover"
                 />
