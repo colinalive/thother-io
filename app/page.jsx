@@ -26,15 +26,9 @@ export default function Home() {
             </div>
           </Link>
           <div className="hidden md:flex items-center space-x-12 text-[10px] uppercase tracking-[0.5em] font-bold text-white/40">
-            <Link href="/" className="hover:text-orange-500 transition-colors duration-500">Home</Link>
             <Link href="#objects" className="hover:text-orange-500 transition-colors duration-500">Objects</Link>
             <Link href="#process" className="hover:text-orange-500 transition-colors duration-500">Process</Link>
             <Link href="#drops" className="hover:text-orange-500 transition-colors duration-500">Drops</Link>
-            <Link href="#about" className="hover:text-orange-500 transition-colors duration-500">About</Link>
-            <Link href="https://thother.shop" className="group flex items-center gap-3 py-1 border-b border-white/10 hover:border-orange-500 transition-all duration-500 text-white">
-               Store
-               <span className="w-1 h-1 rounded-full bg-orange-500"></span>
-            </Link>
           </div>
         </nav>
 
