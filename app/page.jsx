@@ -17,9 +17,7 @@ export default function Home() {
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
           <Link href="/" className="group flex items-center transition-all duration-700">
-            <div className="w-12 h-12 md:w-16 md:h-16 relative group-hover:scale-110 transition-transform flex items-center justify-center">
-              <div className="absolute inset-0 bg-orange-500" style={{ maskImage: "url('https://claw.starryambition.com/8711438752/202603/thother-logo-final-v6.png')", maskSize: 'contain', maskRepeat: 'no-repeat', maskPosition: 'center', WebkitMaskImage: "url('https://claw.starryambition.com/8711438752/202603/thother-logo-final-v6.png')", WebkitMaskSize: 'contain', WebkitMaskRepeat: 'no-repeat', WebkitMaskPosition: 'center' }}></div>
-            </div>
+            <span className="text-3xl font-medium tracking-tighter group-hover:text-orange-500 transition-colors">THOTHER</span>
           </Link>
           <div className="hidden md:flex items-center space-x-16 text-[11px] uppercase tracking-[0.5em] font-bold text-white/30">
             <Link href="#objects" className="hover:text-white transition-colors duration-700">Objects</Link>
@@ -219,9 +217,6 @@ export default function Home() {
         
         <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
           <div className="text-left space-y-12">
-             <div className="w-20 h-20 relative mb-8 grayscale opacity-50 hover:opacity-100 transition-opacity flex items-center justify-center">
-                <div className="absolute inset-0 bg-white" style={{ maskImage: "url('https://claw.starryambition.com/8711438752/202603/thother-logo-final-v6.png')", maskSize: 'contain', maskRepeat: 'no-repeat', maskPosition: 'center', WebkitMaskImage: "url('https://claw.starryambition.com/8711438752/202603/thother-logo-final-v6.png')", WebkitMaskSize: 'contain', WebkitMaskRepeat: 'no-repeat', WebkitMaskPosition: 'center' }}></div>
-             </div>
              <div className="text-3xl font-medium tracking-tighter">THOTHER</div>
              <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
           </div>
