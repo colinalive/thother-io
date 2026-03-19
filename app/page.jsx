@@ -36,7 +36,7 @@ export default function Home() {
         </nav>
 
         <div className="text-center z-10 space-y-24">
-          <h1 className="text-[24vw] md:text-[20vw] font-black tracking-tighter leading-[0.7] mb-12 select-none mix-blend-difference animate-reveal">
+          <h1 className="text-[24vw] md:text-[20vw] font-medium tracking-tighter leading-[0.7] mb-12 select-none mix-blend-difference animate-reveal">
             THOTHER
           </h1>
           <p className="text-xs md:text-xl font-light tracking-[0.6em] uppercase text-white/20 animate-reveal-delayed">
@@ -80,7 +80,7 @@ export default function Home() {
       <section id="objects" className="py-80 px-6 bg-black relative">
         <div className="max-w-[1800px] mx-auto space-y-60">
           <div className="px-4 text-center md:text-left space-y-8">
-            <h2 className="text-8xl md:text-[18rem] font-black tracking-tighter leading-none opacity-[0.03] absolute left-0 select-none pointer-events-none">Objects</h2>
+            <h2 className="text-8xl md:text-[18rem] font-medium tracking-tighter leading-none opacity-[0.03] absolute left-0 select-none pointer-events-none">Objects</h2>
             <p className="text-[12px] uppercase tracking-[0.8em] text-orange-500 font-black relative z-10">Collections</p>
             <h3 className="text-4xl md:text-7xl font-light text-white/40 italic leading-[1.1] relative z-10 max-w-4xl">Designed in code. <br/> Produced layer by layer.</h3>
           </div>
@@ -92,7 +92,7 @@ export default function Home() {
                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-1000"></div>
                <div className="absolute bottom-20 left-20 space-y-8">
                   <p className="text-[12px] uppercase tracking-[0.6em] text-orange-500 font-black">Archive / 01</p>
-                  <h4 className="text-6xl md:text-9xl font-black tracking-tighter leading-none">THE SCULPTURAL LINE</h4>
+                  <h4 className="text-6xl md:text-9xl font-medium tracking-tighter leading-none">THE SCULPTURAL LINE</h4>
                </div>
             </div>
 
@@ -130,7 +130,7 @@ export default function Home() {
       <section className="py-80 px-6 bg-[#030303] border-t border-white/5">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
            <div className="space-y-16">
-              <h2 className="text-6xl md:text-[9rem] font-black tracking-tighter leading-[0.8]">
+              <h2 className="text-6xl md:text-[9rem] font-medium tracking-tighter leading-[0.8]">
                  Digital <br/> to <span className="text-orange-500">Form.</span>
               </h2>
               <p className="text-2xl md:text-4xl text-white/20 font-light leading-snug">
@@ -173,15 +173,15 @@ export default function Home() {
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-center relative z-10">
           <div className="space-y-12">
             <p className="text-[12px] uppercase tracking-[1.2em] font-black text-orange-600 mb-8">Release Status</p>
-            <h2 className="text-8xl md:text-[14rem] font-black tracking-tighter leading-[0.75]">Limited <br/> Drops.</h2>
+            <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Limited <br/> Drops.</h2>
             <div className="flex items-center gap-12 pt-20">
                <div className="text-center">
-                  <p className="text-5xl font-black tracking-tighter">14</p>
+                  <p className="text-5xl font-medium tracking-tighter">14</p>
                   <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-black/40">Days</p>
                </div>
                <div className="w-1.5 h-1.5 bg-black/10 rounded-full"></div>
                <div className="text-center">
-                  <p className="text-5xl font-black tracking-tighter">22</p>
+                  <p className="text-5xl font-medium tracking-tighter">22</p>
                   <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-black/40">Hours</p>
                </div>
             </div>
@@ -207,7 +207,7 @@ export default function Home() {
       {/* 7. FOOTER (Cinematic Closure) */}
       <footer className="py-80 px-6 text-center space-y-60 bg-black">
         <div className="space-y-32">
-          <h2 className="text-5xl md:text-[10rem] font-black tracking-tighter leading-none text-white opacity-90 select-none">
+          <h2 className="text-5xl md:text-[10rem] font-medium tracking-tighter leading-none text-white opacity-90 select-none">
             THOTHER
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
@@ -230,6 +230,7 @@ export default function Home() {
                  className="w-full h-full object-contain mix-blend-screen"
                />
              </div>
+             <div className="text-3xl font-medium tracking-tighter">THOTHER</div>
              <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
           </div>
           <div className="text-right space-y-8">
