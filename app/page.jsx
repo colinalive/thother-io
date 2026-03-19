@@ -216,7 +216,7 @@ export default function Home() {
                <div className="absolute inset-0 bg-white group-hover:bg-orange-600 transition-colors duration-700"></div>
                <span className="relative text-black group-hover:text-white text-[12px] uppercase tracking-[0.6em] font-black transition-colors duration-700">Enter Store</span>
             </Link>
-            <Link href="https://www.instagram.com/officialginamedia/" className="text-[11px] uppercase tracking-[0.6em] font-black py-8 px-20 border border-white/10 hover:border-white transition-all duration-700">
+            <Link href="https://www.instagram.com/th0therofficial/" className="text-[11px] uppercase tracking-[0.6em] font-black py-8 px-20 border border-white/10 hover:border-white transition-all duration-700">
               Follow Instagram
             </Link>
           </div>
