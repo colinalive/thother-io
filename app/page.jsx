@@ -150,10 +150,10 @@ export default function Home() {
               {/* MAIN DOMINANT IMAGE */}
               <div 
                 className="relative group overflow-hidden aspect-[4/5] md:aspect-[16/10] bg-[#050505] grayscale border border-white/5 cursor-zoom-in"
-                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-hero-final-v17.jpg')}
               >
                 <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg" 
+                  src="https://claw.starryambition.com/8711438752/202603/thother-object-hero-final-v17.jpg" 
                   alt="Primary Object Sculpture"
                   className="w-full h-full object-cover transition-all duration-[3000ms] group-hover:scale-110 opacity-30 group-hover:opacity-60"
                 />
