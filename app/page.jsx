@@ -282,9 +282,9 @@ export default function Home() {
       <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
         <div className="space-y-40">
           <div className="flex justify-center mb-24">
-            <div className="w-[120px] md:w-[160px] mix-blend-screen opacity-90">
+            <div className="w-[60px] md:w-[80px] opacity-100">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-logo-orange-hero-v25.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-pure-orange-v26.jpg" 
                 alt="THOTHER Symbol"
                 className="w-full h-auto object-contain"
               />
