@@ -242,6 +242,16 @@ export default function Home() {
 
       {/* 6. DROPS SECTION (Editorial Urgency) */}
       <section id="drops" className="py-80 px-6 bg-black text-white relative overflow-hidden">
+        {/* BACKGROUND MOOD IMAGE */}
+        <div className="absolute inset-0 opacity-[0.08] grayscale pointer-events-none">
+          <img 
+            src="https://claw.starryambition.com/8711438752/202603/thother-drops-bg-v22.jpg" 
+            alt="Drops Background Mood"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
+        </div>
+
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-start relative z-10">
           <div className="space-y-32">
             <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Drops.</h2>
