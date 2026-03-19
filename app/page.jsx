@@ -282,7 +282,7 @@ export default function Home() {
       <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
         <div className="space-y-32">
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
-            <Link href="https://thother.shop" className="group relative px-20 py-8 overflow-hidden">
+            <Link href="https://thother.shop/pages/about" className="group relative px-20 py-8 overflow-hidden">
                <div className="absolute inset-0 bg-white group-hover:bg-orange-600 transition-colors duration-700"></div>
                <span className="relative text-black group-hover:text-white text-[12px] uppercase tracking-[0.6em] font-black transition-colors duration-700">Enter Store</span>
             </Link>
