@@ -113,8 +113,7 @@ export default function Home() {
 
         {/* LARGE SCULPTURAL IMAGE - ALIGNED HEIGHT WITH TEXT CONTAINER */}
         <div 
-          className="w-full md:w-1/2 relative group min-h-[70vh] cursor-zoom-in"
-          onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg')}
+          className="w-full md:w-1/2 relative group min-h-[70vh]"
         >
            <img 
               src="https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg"
