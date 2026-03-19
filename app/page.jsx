@@ -16,11 +16,18 @@ export default function Home() {
         </div>
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
-          <Link href="/" className="group flex items-center transition-all duration-700">
-            <div className="h-4 md:h-6 relative overflow-hidden">
+          <Link href="/" className="group flex items-center gap-4 transition-all duration-700">
+            <div className="h-4 md:h-6 relative overflow-hidden flex items-center">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                alt="THOTHER Symbol"
+                className="h-full w-auto object-contain mix-blend-multiply brightness-150"
+              />
+            </div>
+            <div className="h-3 md:h-5 relative overflow-hidden flex items-center">
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
-                alt="THOTHER Logo"
+                alt="THOTHER Wordmark"
                 className="h-full w-auto object-contain mix-blend-screen"
               />
             </div>
@@ -36,12 +43,21 @@ export default function Home() {
         </nav>
 
         <div className="text-center z-10 space-y-24">
-          <div className="w-[80vw] md:w-[60vw] mx-auto animate-reveal mix-blend-screen">
-            <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
-              alt="THOTHER"
-              className="w-full h-auto object-contain"
-            />
+          <div className="flex flex-col items-center gap-12 animate-reveal">
+            <div className="w-16 h-16 md:w-24 md:h-24 relative overflow-hidden mix-blend-multiply brightness-150">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                alt="THOTHER Symbol"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <div className="w-[80vw] md:w-[60vw] mix-blend-screen">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
+                alt="THOTHER Wordmark"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
           <p className="text-xs md:text-xl font-light tracking-[0.6em] uppercase text-white/20 animate-reveal-delayed">
             Between digital and physical.
@@ -210,13 +226,22 @@ export default function Home() {
 
       {/* 7. FOOTER (Cinematic Closure) */}
       <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
-        <div className="space-y-32">
-          <div className="w-[60vw] md:w-[40vw] mx-auto opacity-90 mix-blend-screen select-none">
-            <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
-              alt="THOTHER"
-              className="w-full h-auto object-contain"
-            />
+        <div className="space-y-24">
+          <div className="flex flex-col items-center gap-12 opacity-90 select-none">
+            <div className="w-12 h-12 md:w-20 md:h-20 relative overflow-hidden mix-blend-multiply brightness-150">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                alt="THOTHER Symbol"
+                className="w-full h-full object-contain"
+              />
+            </div>
+            <div className="w-[60vw] md:w-[40vw] mix-blend-screen">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
+                alt="THOTHER Wordmark"
+                className="w-full h-auto object-contain"
+              />
+            </div>
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
             <Link href="https://thother.shop" className="group relative px-20 py-8 overflow-hidden">
@@ -231,12 +256,21 @@ export default function Home() {
         
         <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
           <div className="text-left space-y-12">
-             <div className="h-6 relative overflow-hidden mix-blend-screen grayscale">
-                <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
-                  alt="THOTHER"
-                  className="h-full w-auto object-contain"
-                />
+             <div className="flex items-center gap-4">
+               <div className="h-6 relative overflow-hidden mix-blend-multiply brightness-150 grayscale opacity-50">
+                  <img 
+                    src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                    alt="THOTHER Symbol"
+                    className="h-full w-auto object-contain"
+                  />
+               </div>
+               <div className="h-4 relative overflow-hidden mix-blend-screen grayscale">
+                  <img 
+                    src="https://claw.starryambition.com/8711438752/202603/thother-wordmark-v1.jpg" 
+                    alt="THOTHER Wordmark"
+                    className="h-full w-auto object-contain"
+                  />
+               </div>
              </div>
              <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
           </div>
