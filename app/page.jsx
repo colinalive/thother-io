@@ -268,7 +268,7 @@ export default function Home() {
              <div className="flex flex-col items-start gap-16">
                 <p className="text-3xl md:text-4xl font-light tracking-tighter uppercase italic text-white/40 leading-tight">Small batches. <br/> No restocks.</p>
                 <Link 
-                  href="https://thother.shop" 
+                  href="https://thother.shop/collections/all-products" 
                   className="w-full md:w-auto px-32 py-12 bg-white text-black text-[11px] uppercase tracking-[1em] font-bold hover:bg-orange-600 hover:text-white transition-all duration-1000 text-center"
                 >
                   Join Drop
