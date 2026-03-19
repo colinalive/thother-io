@@ -59,9 +59,9 @@ export default function Home() {
 
         <div className="text-center z-10 space-y-24">
           <div className="flex flex-col items-center gap-12 animate-reveal">
-            <div className="w-[85vw] md:w-[70vw] mix-blend-screen">
+            <div className="w-[85vw] md:w-[60vw] mix-blend-screen">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-logo-orange-hero-v25.jpg" 
                 alt="THOTHER Logo"
                 className="w-full h-auto object-contain"
               />
