@@ -49,18 +49,21 @@ export default function Home() {
         <div className="w-full md:w-1/2 p-12 md:p-32 z-10 space-y-24">
           <div className="space-y-12">
             <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black mb-8">Concept</p>
-            <h3 className="text-5xl md:text-[6vw] font-light leading-[0.9] tracking-tighter text-white">
-              DESIGN-LED <br/> FASHION <br/> <span className="text-white/20">3D PRINTED.</span>
+            <h3 className="text-4xl md:text-[5vw] font-light leading-[1.1] tracking-tighter text-white">
+              THOTHER is a design-led <br/> fashion brand built <br/> on 3D printing.
             </h3>
           </div>
           
-          <div className="space-y-16">
-            <p className="text-xl md:text-3xl font-light text-white/40 leading-tight max-w-md">
-              We create digitally designed, <br/> physically produced pieces.
+          <div className="space-y-16 max-w-xl">
+            <p className="text-xl md:text-2xl font-light text-white/40 leading-relaxed">
+              We collaborate with designers to create digitally designed, physically produced pieces — from bags and footwear to art objects.
+            </p>
+            <p className="text-xl md:text-2xl font-light text-white/40 leading-relaxed">
+              By working with 3D printing, we rethink scale, waste, and production timelines — favoring small batches and design-led creation.
             </p>
             
             <div className="pt-20">
-              <p className="text-sm md:text-lg tracking-[0.6em] uppercase text-orange-500/50 italic animate-pulse">
+              <p className="text-lg md:text-xl tracking-[0.4em] uppercase text-orange-500/60 italic font-light">
                 Between what exists — <br/> and what comes next.
               </p>
             </div>
@@ -73,7 +76,7 @@ export default function Home() {
            <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
            {/* Subtle Frame Detail */}
-           <div className="absolute inset-12 border border-white/5 pointer-events-none"></div>
+           <div className="absolute inset-12 border border-white/5 pointer-events-none opacity-20"></div>
         </div>
       </section>
 
