@@ -189,10 +189,10 @@ export default function Home() {
           {/* FINAL SECONDARY VISUAL (Horizontal/Subtle) */}
           <div 
             className="w-full h-[50vh] md:h-[60vh] relative group overflow-hidden grayscale border border-white/5 cursor-zoom-in"
-            onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg')}
+            onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg')}
           >
              <img 
-               src="https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg"
+               src="https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg"
                alt="Material Detail Campaign"
                className="w-full h-full object-cover opacity-10 group-hover:opacity-40 transition-opacity duration-1000"
              />
