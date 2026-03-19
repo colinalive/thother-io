@@ -45,8 +45,8 @@ export default function Home() {
       </section>
 
       {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
-      <section id="about" className="min-h-screen bg-black flex flex-col md:flex-row items-center relative overflow-hidden border-y border-white/5">
-        <div className="w-full md:w-1/2 p-12 md:p-32 z-10 space-y-24">
+      <section id="about" className="bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden border-y border-white/5">
+        <div className="w-full md:w-1/2 p-12 md:p-32 z-10 flex flex-col justify-center">
           <div className="space-y-12">
             <p className="text-xs md:text-sm uppercase tracking-[1.5em] text-orange-500 font-black mb-12">About</p>
             <h3 className="text-4xl md:text-[5vw] font-light leading-[1.1] tracking-tighter text-white">
@@ -54,7 +54,7 @@ export default function Home() {
             </h3>
           </div>
           
-          <div className="space-y-16 max-w-xl">
+          <div className="mt-24 space-y-16 max-w-xl">
             <div className="space-y-8">
               <p className="text-xl md:text-3xl font-light text-white/80 leading-tight">
                 Digitally shaped. <br/> Physically produced.
@@ -81,9 +81,13 @@ export default function Home() {
           </div>
         </div>
 
-        {/* LARGE SCULPTURAL IMAGE - 50% WIDTH + FULL HEIGHT */}
-        <div className="w-full md:w-1/2 h-[70vh] md:h-screen relative group">
-           <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-100 transition-all duration-[2000ms] ease-in-out"></div>
+        {/* LARGE SCULPTURAL IMAGE - ALIGNED HEIGHT WITH TEXT CONTAINER */}
+        <div className="w-full md:w-1/2 relative group min-h-[70vh]">
+           <img 
+              src="https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg"
+              alt="Sculptural Filament"
+              className="w-full h-full object-cover grayscale opacity-40 group-hover:opacity-100 transition-all duration-[2000ms] ease-in-out"
+           />
            <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
            {/* Subtle Frame Detail */}
