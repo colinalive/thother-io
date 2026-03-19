@@ -2,8 +2,11 @@ import './globals.css'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'thother.io | The Future of Connection',
-  description: 'AI-Powered Digital Transformation and Identity',
+  title: 'THOTHER.IO | Design-led 3D Printing Collective',
+  description: 'A design-led 3D printing fashion brand exploring the boundary between digital and physical.',
+  icons: {
+    icon: 'https://claw.starryambition.com/8711438752/202603/favicon-orange-c.jpg',
+  },
 }
 
 export default function RootLayout({
