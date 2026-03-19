@@ -279,7 +279,7 @@ export default function Home() {
       </section>
 
       {/* 7. FOOTER (Cinematic Closure) */}
-      <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
+      <footer className="py-80 px-6 text-center space-y-60 bg-black">
         <div className="space-y-40">
           <div className="flex justify-center mb-24">
             <div className="w-[80px] md:w-[120px] mix-blend-screen opacity-100">
