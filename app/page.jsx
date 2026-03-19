@@ -83,7 +83,7 @@ export default function Home() {
 
         {/* LARGE SCULPTURAL IMAGE - 50% WIDTH + FULL HEIGHT */}
         <div className="w-full md:w-1/2 h-[70vh] md:h-screen relative group">
-           <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_about_material.jpg')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-100 transition-all duration-[2000ms] ease-in-out"></div>
+           <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-100 transition-all duration-[2000ms] ease-in-out"></div>
            <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
            <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
            {/* Subtle Frame Detail */}
