@@ -44,30 +44,36 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. ATMOSPHERE / MOOD (Refined Manifesto) */}
-      <section id="about" className="py-80 px-6 bg-black border-y border-white/5">
-        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
-          <div className="space-y-16">
-            <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black">About</p>
-            <h3 className="text-4xl md:text-6xl font-light leading-[1.2] tracking-tight text-white/90">
-              THOTHER is a design-led fashion brand built on 3D printing.
+      {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
+      <section id="about" className="min-h-screen bg-black flex flex-col md:flex-row items-center relative overflow-hidden border-y border-white/5">
+        <div className="w-full md:w-1/2 p-12 md:p-32 z-10 space-y-24">
+          <div className="space-y-12">
+            <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black mb-8">Concept</p>
+            <h3 className="text-5xl md:text-[6vw] font-light leading-[0.9] tracking-tighter text-white">
+              DESIGN-LED <br/> FASHION <br/> <span className="text-white/20">3D PRINTED.</span>
             </h3>
-            <div className="space-y-12 text-xl md:text-2xl text-white/20 leading-relaxed font-light">
-              <p>
-                We collaborate with designers to create digitally designed, physically produced pieces — from bags and footwear to art objects.
-              </p>
-              <p>
-                By working with 3D printing, we rethink scale, waste, and production timelines — favoring small batches and design-led creation.
-              </p>
-              <p className="text-white/40 italic">
-                Between what exists — and what comes next.
+          </div>
+          
+          <div className="space-y-16">
+            <p className="text-xl md:text-3xl font-light text-white/40 leading-tight max-w-md">
+              We create digitally designed, <br/> physically produced pieces.
+            </p>
+            
+            <div className="pt-20">
+              <p className="text-sm md:text-lg tracking-[0.6em] uppercase text-orange-500/50 italic animate-pulse">
+                Between what exists — <br/> and what comes next.
               </p>
             </div>
           </div>
-          <div className="aspect-square bg-neutral-950 relative overflow-hidden group border border-white/5 grayscale opacity-40 hover:opacity-100 transition-all duration-1000">
-             <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_about_material.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
-             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
-          </div>
+        </div>
+
+        {/* LARGE SCULPTURAL IMAGE - 50% WIDTH + FULL HEIGHT */}
+        <div className="w-full md:w-1/2 h-[70vh] md:h-screen relative group">
+           <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_about_material.jpg')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-100 transition-all duration-[2000ms] ease-in-out"></div>
+           <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent"></div>
+           <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black opacity-60"></div>
+           {/* Subtle Frame Detail */}
+           <div className="absolute inset-12 border border-white/5 pointer-events-none"></div>
         </div>
       </section>
 
