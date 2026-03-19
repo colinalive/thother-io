@@ -25,12 +25,15 @@ export default function Home() {
               />
             </div>
           </Link>
-          <div className="hidden md:flex items-center space-x-16 text-[11px] uppercase tracking-[0.5em] font-bold text-white/30">
-            <Link href="#objects" className="hover:text-white transition-colors duration-700">Objects</Link>
-            <Link href="#drops" className="hover:text-white transition-colors duration-700">Drops</Link>
-            <Link href="https://thother.shop" className="group flex items-center gap-4 py-2 border-b border-white/10 hover:border-orange-500 transition-all duration-700">
+          <div className="hidden md:flex items-center space-x-12 text-[10px] uppercase tracking-[0.5em] font-bold text-white/40">
+            <Link href="/" className="hover:text-orange-500 transition-colors duration-500">Home</Link>
+            <Link href="#objects" className="hover:text-orange-500 transition-colors duration-500">Objects</Link>
+            <Link href="#process" className="hover:text-orange-500 transition-colors duration-500">Process</Link>
+            <Link href="#drops" className="hover:text-orange-500 transition-colors duration-500">Drops</Link>
+            <Link href="#about" className="hover:text-orange-500 transition-colors duration-500">About</Link>
+            <Link href="https://thother.shop" className="group flex items-center gap-3 py-1 border-b border-white/10 hover:border-orange-500 transition-all duration-500 text-white">
                Store
-               <span className="w-1.5 h-1.5 rounded-full bg-orange-500 opacity-50 group-hover:opacity-100 transition-opacity"></span>
+               <span className="w-1 h-1 rounded-full bg-orange-500"></span>
             </Link>
           </div>
         </nav>
@@ -54,7 +57,7 @@ export default function Home() {
       </section>
 
       {/* 2. ATMOSPHERE / MOOD (Refined Manifesto) */}
-      <section className="py-80 px-6 bg-black border-y border-white/5">
+      <section id="about" className="py-80 px-6 bg-black border-y border-white/5">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
           <div className="space-y-16">
             <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black">About</p>
@@ -131,7 +134,7 @@ export default function Home() {
       </section>
 
       {/* 4. PROCESS SECTION (Macro & Wireframe) */}
-      <section className="py-80 px-6 bg-[#030303] border-t border-white/5">
+      <section id="process" className="py-80 px-6 bg-[#030303] border-t border-white/5">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
            <div className="space-y-16">
               <h2 className="text-6xl md:text-[9rem] font-medium tracking-tighter leading-[0.8]">
