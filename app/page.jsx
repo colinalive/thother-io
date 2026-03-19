@@ -204,12 +204,18 @@ export default function Home() {
            </div>
            
            <div className="grid grid-cols-2 gap-4">
-              <div className="aspect-square bg-neutral-950 relative overflow-hidden grayscale opacity-30 group">
+              <div 
+                className="aspect-square bg-neutral-950 relative overflow-hidden grayscale opacity-30 group cursor-zoom-in"
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_shoe_display_alt.jpg')}
+              >
                  <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_shoe_display_alt.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
                  {/* Macro Overlay */}
                  <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
               </div>
-             <div className="aspect-[3/4] bg-neutral-950 relative overflow-hidden border border-white/5 opacity-40 group">
+             <div 
+                className="aspect-[3/4] bg-neutral-950 relative overflow-hidden border border-white/5 opacity-40 group cursor-zoom-in"
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_red_objects_shelf.jpg')}
+              >
                 <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_red_objects_shelf.jpg')] bg-cover bg-center grayscale hover:grayscale-0 transition-all duration-1000 group-hover:scale-110"></div>
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
                 {/* Visual Representation of Wireframe - Overlaying on real image now */}
@@ -219,7 +225,10 @@ export default function Home() {
       </section>
 
       {/* 5. ATMOSPHERE MOOD 2 (Lattice / Geometry / Sculpture) */}
-      <section className="h-screen bg-black flex items-center justify-center relative overflow-hidden group">
+      <section 
+        className="h-screen bg-black flex items-center justify-center relative overflow-hidden group cursor-zoom-in"
+        onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_niukver_sculpture.jpg')}
+      >
          <div className="absolute inset-0 opacity-20 grayscale transition-all duration-1000 group-hover:opacity-40">
             <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_niukver_sculpture.jpg')] bg-cover bg-center scale-110 group-hover:scale-100 transition-transform duration-[10000ms]"></div>
             <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
@@ -253,7 +262,10 @@ export default function Home() {
           </div>
           
           <div className="space-y-24">
-             <div className="aspect-[4/5] bg-neutral-900 relative overflow-hidden grayscale group">
+             <div 
+                className="aspect-[4/5] bg-neutral-900 relative overflow-hidden grayscale group cursor-zoom-in"
+                onClick={() => openLightbox('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=1000')}
+              >
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=1000')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-sm group-hover:blur-none transition-all"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
                    <p className="text-[10px] uppercase tracking-[0.8em] font-black text-white/20">Blurred Preview</p>
