@@ -9,7 +9,7 @@ export default function Home() {
       <section className="relative flex flex-col items-center justify-center min-h-screen px-6 overflow-hidden transition-opacity duration-1000 ease-in-out">
         <div className="absolute inset-0 -z-10 bg-black">
           {/* Main Editorial Hero Image */}
-          <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-hero-editorial-v11.jpg')] bg-cover bg-center grayscale brightness-[0.4] scale-105 transition-transform duration-[10000ms] ease-linear animate-slow-zoom"></div>
+          <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-hero-editorial-v12.jpg')] bg-cover bg-center grayscale brightness-[0.4] scale-105 transition-transform duration-[10000ms] ease-linear animate-slow-zoom"></div>
           {/* Vignette & Gradients for Depth */}
           <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-60"></div>
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_100%)] opacity-80"></div>
