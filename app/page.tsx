@@ -6,9 +6,9 @@ export default function Home() {
       {/* 1. HERO REFINEMENT: Cinematic & Editorial */}
       <section className="relative flex flex-col items-center justify-center min-h-screen px-6 overflow-hidden transition-opacity duration-1000 ease-in-out">
         <div className="absolute inset-0 -z-10 bg-black">
-          {/* Grayscale base with subtle highlight */}
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=2000')] bg-cover bg-center grayscale opacity-20 mix-blend-screen scale-105 transition-transform duration-[10000ms] ease-linear animate-slow-zoom"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
+          {/* Real Sculptural Product Highlight */}
+          <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_shoe_sculpture.jpg')] bg-cover bg-center grayscale opacity-30 mix-blend-screen scale-105 transition-transform duration-[10000ms] ease-linear animate-slow-zoom"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-80"></div>
           {/* Controlled Orange Accent */}
           <div className="absolute top-[40%] left-[60%] w-[60vw] h-[60vh] bg-orange-600/5 blur-[160px] rounded-full"></div>
         </div>
