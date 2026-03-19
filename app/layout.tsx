@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: 'THOTHER.IO | Design-led 3D Printing Collective',
   description: 'A design-led 3D printing fashion brand exploring the boundary between digital and physical.',
   icons: {
-    icon: 'https://claw.starryambition.com/8711438752/202603/thother-symbol-highres-v7.jpg',
+    icon: 'https://claw.starryambition.com/8711438752/202603/thother-favicon-v10.png',
   },
 }
 
