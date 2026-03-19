@@ -95,49 +95,70 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. OBJECTS SECTION (Editorial Sculpture Layout) */}
+      {/* 3. OBJECTS SECTION (Editorial Campaign Layout) */}
       <section id="objects" className="py-80 px-6 bg-black relative">
-        <div className="max-w-[1800px] mx-auto space-y-60">
-          <div className="px-4 text-center md:text-left space-y-8">
-            <h2 className="text-8xl md:text-[18rem] font-medium tracking-tighter leading-none opacity-[0.03] absolute left-0 select-none pointer-events-none">Objects</h2>
-            <p className="text-[12px] uppercase tracking-[0.8em] text-orange-500 font-black relative z-10">Archive / Collections</p>
-            <h3 className="text-4xl md:text-7xl font-light text-white/40 italic leading-[1.1] relative z-10 max-w-4xl">Sculptural Form. <br/> Architectural Weight.</h3>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-12 relative z-10">
-            {/* LARGE HERO OBJECT */}
-            <div className="md:col-span-8 aspect-[16/10] bg-[#050505] relative group overflow-hidden border border-white/5">
-               <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')] bg-cover bg-center grayscale opacity-20 group-hover:opacity-40 transition-all duration-1000"></div>
-               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-               <div className="absolute bottom-12 left-12 space-y-4">
-                  <p className="text-[10px] uppercase tracking-[0.5em] text-white/30">Form 01</p>
-                  <h4 className="text-5xl md:text-7xl font-medium tracking-tighter uppercase">The Collective Archive</h4>
-               </div>
-            </div>
-
-            {/* FLOATING CAMPAIGN IMAGE */}
-            <div className="md:col-span-4 flex flex-col justify-end gap-12">
-               <div className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-30 hover:opacity-100 transition-all duration-1000">
-                  <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_bag_magenta.jpg')] bg-cover bg-center"></div>
-                  <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors"></div>
-               </div>
-               <p className="text-xl md:text-2xl text-white/10 font-light italic leading-relaxed">
-                 Beyond reproduction. <br/> Objects that exist between <br/> code and matter.
-               </p>
-            </div>
-          </div>
+        <div className="max-w-[1800px] mx-auto space-y-40">
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-40 items-start">
-             <div className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-80 transition-all duration-1000">
-                <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg')] bg-cover bg-center"></div>
-             </div>
-             <div className="pt-20 space-y-12">
-                <p className="text-4xl md:text-6xl font-light text-white/20 leading-tight">
+          {/* Header & Main Dominant Image (70% screen) */}
+          <div className="flex flex-col md:flex-row gap-16 md:gap-32 items-end">
+            <div className="w-full md:w-[70%] space-y-16">
+              <div className="space-y-8 mb-24 px-4">
+                <p className="text-xs uppercase tracking-[1.5em] text-orange-500/60 font-bold">Collection</p>
+                <h2 className="text-6xl md:text-[10vw] font-light leading-none tracking-tighter text-white">
+                  OBJECTS.
+                </h2>
+                <div className="pt-12">
+                   <p className="text-xl md:text-4xl font-light text-white/40 italic leading-tight">
+                    Sculptural form. <br /> Architectural weight.
+                   </p>
+                </div>
+              </div>
+              
+              {/* MAIN DOMINANT IMAGE */}
+              <div className="relative group overflow-hidden aspect-[4/5] md:aspect-[16/10] bg-[#050505] grayscale border border-white/5">
+                <img 
+                  src="https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg" 
+                  alt="Primary Object Sculpture"
+                  className="w-full h-full object-cover transition-all duration-[3000ms] group-hover:scale-110 opacity-30 group-hover:opacity-60"
+                />
+                <div className="absolute bottom-12 left-12">
+                   <p className="text-[10px] tracking-[1.5em] uppercase text-white/20">The Collective Archive / 01</p>
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
+              </div>
+            </div>
+
+            {/* SECONDARY VISUAL (Asymmetric/Smaller) */}
+            <div className="w-full md:w-[30%] space-y-32 self-start md:pt-60">
+              <div className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-100 transition-all duration-1000">
+                <img 
+                  src="https://claw.starryambition.com/8711438752/202603/thother_bag_magenta.jpg" 
+                  alt="Secondary Sculpture detail"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors"></div>
+              </div>
+              
+              <div className="space-y-8 pl-8 border-l border-white/10">
+                <p className="text-xl md:text-2xl font-light text-white/10 italic leading-relaxed">
                   Design-led <br/> creation for a <br/> digital era.
                 </p>
-                <div className="w-px h-40 bg-orange-500/50"></div>
+              </div>
+            </div>
+          </div>
+
+          {/* FINAL SECONDARY VISUAL (Horizontal/Subtle) */}
+          <div className="w-full h-[50vh] md:h-[60vh] relative group overflow-hidden grayscale border border-white/5">
+             <img 
+               src="https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg"
+               alt="Material Detail Campaign"
+               className="w-full h-full object-cover opacity-10 group-hover:opacity-40 transition-opacity duration-1000"
+             />
+             <div className="absolute inset-0 flex items-center justify-center">
+                <p className="text-[10px] tracking-[2.5em] uppercase text-white/10 group-hover:text-white/30 transition-all duration-1000">Tactile Future</p>
              </div>
           </div>
+
         </div>
       </section>
 
