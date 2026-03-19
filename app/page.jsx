@@ -229,15 +229,14 @@ export default function Home() {
         className="h-screen bg-black flex items-center justify-center relative overflow-hidden group cursor-zoom-in"
         onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_niukver_sculpture.jpg')}
       >
-         <div className="absolute inset-0 opacity-20 grayscale transition-all duration-1000 group-hover:opacity-40">
+         <div className="absolute inset-0 opacity-[0.15] grayscale transition-all duration-1000 group-hover:opacity-30">
             <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_niukver_sculpture.jpg')] bg-cover bg-center scale-110 group-hover:scale-100 transition-transform duration-[10000ms]"></div>
             <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
          </div>
-         <div className="z-10 text-center space-y-12 max-w-4xl px-6">
-            <p className="text-[12px] uppercase tracking-[1.2em] text-white/20 font-black">Philosophy</p>
-            <h2 className="text-5xl md:text-[8rem] font-light tracking-tighter leading-[0.85] text-white/90">
-               Not trend-driven. <br/>
-               <span className="italic text-orange-500 underline decoration-white/10 underline-offset-[20px]">Design-led.</span>
+         <div className="z-10 text-center space-y-16 max-w-5xl px-6">
+            <h2 className="flex flex-col gap-8 md:gap-12 tracking-tighter leading-none text-white/90">
+               <span className="text-4xl md:text-[6rem] font-light">Not trend-driven.</span>
+               <span className="text-6xl md:text-[11rem] font-medium text-orange-500 italic">Design-led.</span>
             </h2>
          </div>
       </section>
