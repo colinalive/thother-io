@@ -279,16 +279,16 @@ export default function Home() {
       </section>
 
       {/* 7. FOOTER (Cinematic Closure) */}
-      <footer className="py-12 px-6 text-center bg-black">
+      <footer className="py-24 px-6 text-center bg-black">
         <div className="flex flex-col items-center">
-          <div className="w-[85vw] md:w-[60vw] opacity-100 -mb-8 md:-mb-16 relative z-0">
+          <div className="w-[90vw] md:w-[70vw] opacity-100 -mb-4 md:-mb-8 relative z-0">
             <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange-black-bg-v27.jpg" 
-              alt="THOTHER Symbol"
+              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-footer-v28.jpg" 
+              alt="THOTHER Combined Logo"
               className="w-full h-auto object-contain"
             />
           </div>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 relative z-10">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 relative z-10 mt-12 md:mt-24">
             <Link href="https://thother.shop/pages/about" className="group relative px-20 py-8 overflow-hidden w-full md:w-auto min-w-[200px]">
                <div className="absolute inset-0 bg-white group-hover:bg-orange-600 transition-colors duration-700"></div>
                <span className="relative text-black group-hover:text-white text-[12px] uppercase tracking-[0.6em] font-black transition-colors duration-700">Enter Store</span>
