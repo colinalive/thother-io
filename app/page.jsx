@@ -19,7 +19,7 @@ export default function Home() {
           <Link href="/" className="group flex items-center transition-all duration-700">
             <div className="h-6 md:h-10 relative overflow-hidden flex items-center bg-black">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-v8.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                 alt="THOTHER Logo"
                 className="h-full w-auto object-contain"
               />
@@ -38,7 +38,7 @@ export default function Home() {
         <div className="text-center z-10 space-y-24">
           <div className="w-[90vw] md:w-[70vw] mx-auto animate-reveal bg-black">
             <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-v8.jpg" 
+              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
               alt="THOTHER"
               className="w-full h-auto object-contain"
             />
@@ -213,7 +213,7 @@ export default function Home() {
         <div className="space-y-32">
           <div className="w-[70vw] md:w-[50vw] mx-auto opacity-90 select-none bg-black">
             <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-v8.jpg" 
+              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
               alt="THOTHER"
               className="w-full h-auto object-contain"
             />
@@ -233,7 +233,7 @@ export default function Home() {
           <div className="text-left space-y-12">
              <div className="h-10 relative overflow-hidden bg-black grayscale opacity-50">
                 <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-v8.jpg" 
+                  src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                   alt="THOTHER"
                   className="h-full w-auto object-contain"
                 />
