@@ -59,9 +59,9 @@ export default function Home() {
 
         <div className="text-center z-10 space-y-24">
           <div className="flex flex-col items-center gap-12 animate-reveal">
-            <div className="w-[85vw] md:w-[60vw] mix-blend-screen">
+            <div className="w-[85vw] md:w-[70vw] mix-blend-screen">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-logo-orange-hero-v25.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                 alt="THOTHER Logo"
                 className="w-full h-auto object-contain"
               />
@@ -77,6 +77,15 @@ export default function Home() {
       {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
       <section id="about" className="bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden">
         <div className="w-full md:w-1/2 p-12 md:p-32 z-10 flex flex-col justify-center">
+          <div className="flex flex-col items-center mb-12">
+            <div className="w-[150px] md:w-[200px] mix-blend-screen opacity-80">
+              <img 
+                src="https://claw.starryambition.com/8711438752/202603/thother-logo-orange-hero-v25.jpg" 
+                alt="THOTHER Logo Accent"
+                className="w-full h-auto object-contain"
+              />
+            </div>
+          </div>
           <div className="space-y-12">
             <p className="text-xs md:text-sm uppercase tracking-[1.5em] text-orange-500 font-black mb-12">About</p>
             <h3 className="text-4xl md:text-[5vw] font-light leading-[1.1] tracking-tighter text-white">
