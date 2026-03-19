@@ -169,34 +169,34 @@ export default function Home() {
       </section>
 
       {/* 6. DROPS SECTION (Editorial Urgency) */}
-      <section id="drops" className="py-80 px-6 bg-white text-black relative overflow-hidden">
+      <section id="drops" className="py-80 px-6 bg-black text-white relative overflow-hidden">
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-center relative z-10">
           <div className="space-y-12">
-            <p className="text-[12px] uppercase tracking-[1.2em] font-black text-orange-600 mb-8">Release Status</p>
+            <p className="text-[12px] uppercase tracking-[1.2em] font-black text-orange-500 mb-8">Release Status</p>
             <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Limited <br/> Drops.</h2>
-            <div className="flex items-center gap-12 pt-20">
+            <div className="flex items-center gap-12 pt-20 text-white">
                <div className="text-center">
                   <p className="text-5xl font-medium tracking-tighter">14</p>
-                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-black/40">Days</p>
+                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-white/40">Days</p>
                </div>
-               <div className="w-1.5 h-1.5 bg-black/10 rounded-full"></div>
+               <div className="w-1.5 h-1.5 bg-white/10 rounded-full"></div>
                <div className="text-center">
                   <p className="text-5xl font-medium tracking-tighter">22</p>
-                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-black/40">Hours</p>
+                  <p className="text-[10px] uppercase tracking-[0.3em] font-bold text-white/40">Hours</p>
                </div>
             </div>
           </div>
           
           <div className="space-y-24">
-             <div className="aspect-[4/5] bg-neutral-100 relative overflow-hidden grayscale group">
+             <div className="aspect-[4/5] bg-neutral-900 relative overflow-hidden grayscale group">
                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=1000')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-sm group-hover:blur-none transition-all"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                   <p className="text-[10px] uppercase tracking-[0.8em] font-black text-black/20">Blurred Preview</p>
+                   <p className="text-[10px] uppercase tracking-[0.8em] font-black text-white/20">Blurred Preview</p>
                 </div>
              </div>
              <div className="flex flex-col items-start gap-12">
-                <p className="text-3xl font-bold tracking-tighter uppercase italic text-black/30 leading-none">Small batches. <br/> No restocks.</p>
-                <button className="px-24 py-10 bg-black text-white text-[12px] uppercase tracking-[0.8em] font-black hover:bg-orange-600 transition-all duration-700 shadow-2xl">
+                <p className="text-3xl font-bold tracking-tighter uppercase italic text-white/30 leading-none">Small batches. <br/> No restocks.</p>
+                <button className="px-24 py-10 bg-white text-black text-[12px] uppercase tracking-[0.8em] font-black hover:bg-orange-600 hover:text-white transition-all duration-700 shadow-2xl">
                   Join Drop
                 </button>
              </div>
