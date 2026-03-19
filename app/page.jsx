@@ -19,7 +19,7 @@ export default function Home() {
           <Link href="/" className="group flex items-center transition-all duration-700">
             <div className="w-12 h-12 md:w-16 md:h-16 relative overflow-hidden group-hover:scale-110 transition-transform">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-logo-main.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-logo-v3.jpg" 
                 alt="THOTHER Logo"
                 className="w-full h-full object-contain"
               />
@@ -225,7 +225,7 @@ export default function Home() {
           <div className="text-left space-y-12">
              <div className="w-20 h-20 relative overflow-hidden mb-8 grayscale opacity-50 hover:opacity-100 transition-opacity">
                <img 
-                 src="https://claw.starryambition.com/8711438752/202603/thother-logo-main.jpg" 
+                 src="https://claw.starryambition.com/8711438752/202603/thother-logo-v3.jpg" 
                  alt="THOTHER Logo"
                  className="w-full h-full object-contain"
                />
