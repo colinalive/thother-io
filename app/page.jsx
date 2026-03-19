@@ -21,7 +21,7 @@ export default function Home() {
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-favicon-transparent.jpg" 
                 alt="THOTHER Logo"
-                className="w-full h-full object-contain mix-blend-screen"
+                className="w-full h-full object-contain"
               />
             </div>
           </Link>
@@ -227,7 +227,7 @@ export default function Home() {
                <img 
                  src="https://claw.starryambition.com/8711438752/202603/thother-favicon-transparent.jpg" 
                  alt="THOTHER Logo"
-                 className="w-full h-full object-contain mix-blend-screen"
+                 className="w-full h-full object-contain"
                />
              </div>
              <div className="text-3xl font-medium tracking-tighter">THOTHER</div>
