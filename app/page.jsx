@@ -12,7 +12,7 @@ export default function Home() {
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
           <Link href="/" className="group flex items-center transition-all duration-700">
-            <div className="h-4 md:h-6 relative overflow-hidden flex items-center">
+            <div className="h-2 md:h-3 relative overflow-hidden flex items-center">
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                 alt="THOTHER Logo"
