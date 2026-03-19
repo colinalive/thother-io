@@ -1,10 +1,40 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 
 export default function Home() {
+  const [selectedImg, setSelectedImg] = useState(null);
+
+  const openLightbox = (src) => {
+    setSelectedImg(src);
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeLightbox = () => {
+    setSelectedImg(null);
+    document.body.style.overflow = 'auto';
+  };
+
   return (
     <div className="flex flex-col bg-black text-white selection:bg-orange-500/30 font-sans tracking-tight leading-none overflow-x-hidden">
+      
+      {/* Lightbox Overlay */}
+      {selectedImg && (
+        <div 
+          className="fixed inset-0 z-[100] bg-black/95 flex items-center justify-center p-4 md:p-20 animate-reveal"
+          onClick={closeLightbox}
+        >
+          <div className="absolute top-8 right-8 text-white/40 hover:text-white cursor-pointer transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+          </div>
+          <img 
+            src={selectedImg} 
+            className="max-w-full max-h-full object-contain shadow-2xl" 
+            alt="Lightbox view"
+          />
+        </div>
+      )}
+
       {/* 1. HERO REFINEMENT: Cinematic & Editorial */}
       <section className="relative flex flex-col items-center justify-center min-h-screen px-6 overflow-hidden transition-opacity duration-1000 ease-in-out">
         <div className="absolute inset-0 -z-10 bg-black">
@@ -82,7 +112,10 @@ export default function Home() {
         </div>
 
         {/* LARGE SCULPTURAL IMAGE - ALIGNED HEIGHT WITH TEXT CONTAINER */}
-        <div className="w-full md:w-1/2 relative group min-h-[70vh]">
+        <div 
+          className="w-full md:w-1/2 relative group min-h-[70vh] cursor-zoom-in"
+          onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg')}
+        >
            <img 
               src="https://claw.starryambition.com/8711438752/202603/thother-process-material-v13.jpg"
               alt="Sculptural Filament"
@@ -115,7 +148,10 @@ export default function Home() {
               </div>
               
               {/* MAIN DOMINANT IMAGE */}
-              <div className="relative group overflow-hidden aspect-[4/5] md:aspect-[16/10] bg-[#050505] grayscale border border-white/5">
+              <div 
+                className="relative group overflow-hidden aspect-[4/5] md:aspect-[16/10] bg-[#050505] grayscale border border-white/5 cursor-zoom-in"
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')}
+              >
                 <img 
                   src="https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg" 
                   alt="Primary Object Sculpture"
@@ -130,7 +166,10 @@ export default function Home() {
 
             {/* SECONDARY VISUAL (Asymmetric/Smaller) */}
             <div className="w-full md:w-[30%] space-y-32 self-start md:pt-60">
-              <div className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-100 transition-all duration-1000">
+              <div 
+                className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-100 transition-all duration-1000 cursor-zoom-in"
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_bag_magenta.jpg')}
+              >
                 <img 
                   src="https://claw.starryambition.com/8711438752/202603/thother_bag_magenta.jpg" 
                   alt="Secondary Sculpture detail"
@@ -148,7 +187,10 @@ export default function Home() {
           </div>
 
           {/* FINAL SECONDARY VISUAL (Horizontal/Subtle) */}
-          <div className="w-full h-[50vh] md:h-[60vh] relative group overflow-hidden grayscale border border-white/5">
+          <div 
+            className="w-full h-[50vh] md:h-[60vh] relative group overflow-hidden grayscale border border-white/5 cursor-zoom-in"
+            onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg')}
+          >
              <img 
                src="https://claw.starryambition.com/8711438752/202603/thother_sculptural_bag_black.jpg"
                alt="Material Detail Campaign"
