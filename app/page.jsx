@@ -168,10 +168,10 @@ export default function Home() {
             <div className="w-full md:w-[30%] space-y-32 self-start md:pt-60">
               <div 
                 className="aspect-[4/5] bg-[#050505] relative group overflow-hidden border border-white/5 grayscale opacity-20 hover:opacity-100 transition-all duration-1000 cursor-zoom-in"
-                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-object-sculpture-v16.jpg')}
               >
                 <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-object-tactile-v14.jpg" 
+                  src="https://claw.starryambition.com/8711438752/202603/thother-object-sculpture-v16.jpg" 
                   alt="Secondary Sculpture detail"
                   className="w-full h-full object-cover"
                 />
