@@ -138,16 +138,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. ATMOSPHERE MOOD 2 (Lattice / Geometry) */}
-      <section className="h-screen bg-black flex items-center justify-center relative overflow-hidden">
-         <div className="absolute inset-0 opacity-[0.05] pointer-events-none grayscale">
-            <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1635405074683-96d6921a2a2c?q=80&w=2000')] bg-cover bg-center rotate-12 scale-150"></div>
+      {/* 5. ATMOSPHERE MOOD 2 (Lattice / Geometry / Sculpture) */}
+      <section className="h-screen bg-black flex items-center justify-center relative overflow-hidden group">
+         <div className="absolute inset-0 opacity-20 grayscale transition-all duration-1000 group-hover:opacity-40">
+            <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_niukver_sculpture.jpg')] bg-cover bg-center scale-110 group-hover:scale-100 transition-transform duration-[10000ms]"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
          </div>
          <div className="z-10 text-center space-y-12 max-w-4xl px-6">
-            <p className="text-[12px] uppercase tracking-[1em] text-white/20 font-black">Philosophy</p>
-            <h2 className="text-4xl md:text-7xl font-light tracking-tighter leading-tight text-white/80">
+            <p className="text-[12px] uppercase tracking-[1.2em] text-white/20 font-black">Philosophy</p>
+            <h2 className="text-5xl md:text-[8rem] font-light tracking-tighter leading-[0.85] text-white/90">
                Not trend-driven. <br/>
-               <span className="italic text-orange-500">Design-led.</span>
+               <span className="italic text-orange-500 underline decoration-white/10 underline-offset-[20px]">Design-led.</span>
             </h2>
          </div>
       </section>
