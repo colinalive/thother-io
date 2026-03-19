@@ -279,9 +279,9 @@ export default function Home() {
       </section>
 
       {/* 7. FOOTER (Cinematic Closure) */}
-      <footer className="py-24 px-6 text-center bg-black">
+      <footer className="py-12 px-6 text-center bg-black">
         <div className="flex flex-col items-center">
-          <div className="w-[85vw] md:w-[60vw] opacity-100 mb-12 md:mb-24 relative z-0">
+          <div className="w-[85vw] md:w-[60vw] opacity-100 -mb-8 md:-mb-16 relative z-0">
             <img 
               src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange-black-bg-v27.jpg" 
               alt="THOTHER Symbol"
