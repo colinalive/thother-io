@@ -261,9 +261,9 @@ export default function Home() {
           <div className="space-y-32">
              <div 
                 className="aspect-[4/5] bg-neutral-950 relative overflow-hidden grayscale group cursor-zoom-in border border-white/5"
-                onClick={() => openLightbox('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=1000')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-v21.jpg')}
               >
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1614613535308-eb5fbd3d2c17?q=80&w=1000')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-md group-hover:blur-sm transition-all"></div>
+                <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-v21.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-md group-hover:blur-sm transition-all"></div>
              </div>
              <div className="flex flex-col items-start gap-16">
                 <p className="text-3xl md:text-4xl font-light tracking-tighter uppercase italic text-white/40 leading-tight">Small batches. <br/> No restocks.</p>
