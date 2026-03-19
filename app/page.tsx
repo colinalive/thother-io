@@ -39,20 +39,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. ATMOSPHERE / MOOD (Fluid & Spatial) */}
-      <section className="py-80 px-6 bg-black flex items-center justify-center border-y border-white/5">
-         <div className="max-w-6xl w-full grid md:grid-cols-2 gap-40 items-center">
-            <div className="space-y-16">
-               <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black">Philosophy</p>
-               <h2 className="text-6xl md:text-[8rem] font-medium tracking-tighter leading-[0.9] text-white/90 italic">
-                  Concept <br/> to <span className="text-white/10 italic">material.</span>
-               </h2>
+      {/* 2. ATMOSPHERE / MOOD (Refined Manifesto) */}
+      <section className="py-80 px-6 bg-black border-y border-white/5">
+        <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
+          <div className="space-y-16">
+            <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black">About</p>
+            <h3 className="text-4xl md:text-6xl font-light leading-[1.2] tracking-tight text-white/90">
+              THOTHER is a design-led fashion brand built on 3D printing.
+            </h3>
+            <div className="space-y-12 text-xl md:text-2xl text-white/20 leading-relaxed font-light">
+              <p>
+                We collaborate with designers to create digitally designed, physically produced pieces — from bags and footwear to art objects.
+              </p>
+              <p>
+                By working with 3D printing, we rethink scale, waste, and production timelines — favoring small batches and design-led creation.
+              </p>
+              <p className="text-white/40 italic">
+                Between what exists — and what comes next.
+              </p>
             </div>
-            <div className="aspect-[4/5] bg-neutral-950 relative overflow-hidden grayscale opacity-40 hover:opacity-80 transition-opacity duration-1000 group">
-               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
-               <div className="absolute inset-0 bg-gradient-to-tr from-black/60 to-transparent"></div>
-            </div>
-         </div>
+          </div>
+          <div className="aspect-square bg-neutral-950 relative overflow-hidden group border border-white/5 grayscale opacity-40 hover:opacity-100 transition-all duration-1000">
+             <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_about_material.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
+             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+          </div>
+        </div>
       </section>
 
       {/* 3. OBJECTS SECTION (Fluid Layout) */}
