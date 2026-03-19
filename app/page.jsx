@@ -193,8 +193,10 @@ export default function Home() {
       <section id="process" className="py-80 px-6 bg-[#030303] border-t border-white/5">
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-32 items-center">
            <div className="space-y-16">
-              <h2 className="text-6xl md:text-[9rem] font-medium tracking-tighter leading-[0.8]">
-                 Digital <br/> to <span className="text-orange-500">Form.</span>
+              <h2 className="text-6xl md:text-[9rem] font-medium tracking-tighter leading-[0.9]">
+                 Digital <br/> 
+                 <span className="text-4xl md:text-6xl font-light text-white/20 block my-4">to</span>
+                 <span className="text-orange-500">Form.</span>
               </h2>
               <div className="space-y-4">
                 <p className="text-2xl md:text-5xl text-white/40 font-light leading-tight">
