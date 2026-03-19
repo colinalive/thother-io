@@ -140,8 +140,8 @@ export default function Home() {
               </div>
               
               <div className="space-y-8 pl-8 border-l border-white/10">
-                <p className="text-xl md:text-2xl font-light text-white/10 italic leading-relaxed">
-                  Design-led <br/> creation for a <br/> digital era.
+                <p className="text-xl md:text-3xl font-light text-white/40 leading-tight">
+                  Designed in code. <br/> Built in reality.
                 </p>
               </div>
             </div>
@@ -169,9 +169,11 @@ export default function Home() {
               <h2 className="text-6xl md:text-[9rem] font-medium tracking-tighter leading-[0.8]">
                  Digital <br/> to <span className="text-orange-500">Form.</span>
               </h2>
-              <p className="text-2xl md:text-4xl text-white/20 font-light leading-snug">
-                 Exploring structure, material, and geometry through additive manufacturing.
-              </p>
+              <div className="space-y-4">
+                <p className="text-2xl md:text-5xl text-white/40 font-light leading-tight">
+                  Structure. <br /> Material. <br /> Geometry.
+                </p>
+              </div>
            </div>
            
            <div className="grid grid-cols-2 gap-4">
