@@ -188,16 +188,16 @@ export default function Home() {
 
           {/* FINAL SECONDARY VISUAL (Horizontal/Subtle) */}
           <div 
-            className="w-full h-[50vh] md:h-[60vh] relative group overflow-hidden grayscale border border-white/5 cursor-zoom-in"
+            className="w-full h-[30vh] md:h-[40vh] relative group overflow-hidden grayscale border border-white/5 cursor-zoom-in"
             onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')}
           >
              <img 
                src="https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg"
                alt="Material Detail Campaign"
-               className="w-full h-full object-cover opacity-10 group-hover:opacity-40 transition-opacity duration-1000"
+               className="w-full h-full object-cover opacity-5 group-hover:opacity-20 transition-opacity duration-1000"
              />
              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-[10px] tracking-[2.5em] uppercase text-white/10 group-hover:text-white/30 transition-all duration-1000">Tactile Future</p>
+                <p className="text-[8px] md:text-[10px] tracking-[3em] uppercase text-white/10 group-hover:text-white/20 transition-all duration-1000">Tactile Future</p>
              </div>
           </div>
 
