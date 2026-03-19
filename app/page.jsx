@@ -242,16 +242,6 @@ export default function Home() {
 
       {/* 6. DROPS SECTION (Editorial Urgency) */}
       <section id="drops" className="py-80 px-6 bg-black text-white relative overflow-hidden">
-        {/* BACKGROUND MOOD IMAGE */}
-        <div className="absolute inset-0 opacity-[0.08] grayscale pointer-events-none">
-          <img 
-            src="https://claw.starryambition.com/8711438752/202603/thother-drops-bg-v22.jpg" 
-            alt="Drops Background Mood"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
-        </div>
-
         <div className="max-w-[1600px] mx-auto grid md:grid-cols-2 gap-40 items-start relative z-10">
           <div className="space-y-32">
             <h2 className="text-8xl md:text-[14rem] font-medium tracking-tighter leading-[0.75]">Drops.</h2>
@@ -271,9 +261,9 @@ export default function Home() {
           <div className="space-y-32">
              <div 
                 className="aspect-[4/5] bg-neutral-950 relative overflow-hidden grayscale group cursor-zoom-in border border-white/5"
-                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-v21.jpg')}
+                onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-final-v23.jpg')}
               >
-                <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-v21.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-md group-hover:blur-sm transition-all"></div>
+                <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-drops-preview-final-v23.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms] opacity-20 blur-md group-hover:blur-sm transition-all"></div>
              </div>
              <div className="flex flex-col items-start gap-16">
                 <p className="text-3xl md:text-4xl font-light tracking-tighter uppercase italic text-white/40 leading-tight">Small batches. <br/> No restocks.</p>
