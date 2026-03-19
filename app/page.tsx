@@ -103,12 +103,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6 pt-20">
             {/* HERO PRODUCT: Oversized, sculptural */}
             <div className="md:col-span-8 aspect-[4/5] md:aspect-auto md:h-[90vh] bg-neutral-950 relative group overflow-hidden cursor-crosshair">
-               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1635405074683-96d6921a2a2c?q=80&w=2000')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-70 group-hover:scale-105 transition-all duration-1000"></div>
+               <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_bags_display.jpg')] bg-cover bg-center grayscale opacity-40 group-hover:opacity-100 group-hover:scale-105 transition-all duration-1000"></div>
                <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
                <div className="absolute bottom-16 left-16 space-y-6">
-                  <p className="text-[11px] uppercase tracking-[0.6em] text-orange-500 font-black">Footwear Collection</p>
-                  <h4 className="text-5xl md:text-7xl font-black italic tracking-tighter">OSS_G1 / SHARKTA</h4>
-                  <Link href="https://thother.shop/collections/footwear" className="inline-block text-[10px] uppercase tracking-[0.4em] font-bold py-4 px-8 border border-white/10 hover:border-orange-500 transition-all">View Details</Link>
+                  <p className="text-[11px] uppercase tracking-[0.6em] text-orange-500 font-black">Archive / Display</p>
+                  <h4 className="text-5xl md:text-7xl font-black italic tracking-tighter">THE SCULPTURAL LINE</h4>
+                  <Link href="https://thother.shop/collections/bags" className="inline-block text-[10px] uppercase tracking-[0.4em] font-bold py-4 px-8 border border-white/10 hover:border-orange-500 transition-all">View Collection</Link>
                </div>
             </div>
 
