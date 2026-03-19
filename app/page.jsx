@@ -19,9 +19,9 @@ export default function Home() {
           <Link href="/" className="group flex items-center gap-4 transition-all duration-700">
             <div className="h-4 md:h-6 relative overflow-hidden flex items-center">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-highres-v7.jpg" 
                 alt="THOTHER Symbol"
-                className="h-full w-auto object-contain mix-blend-multiply brightness-150"
+                className="h-full w-auto object-contain mix-blend-lighten"
               />
             </div>
             <div className="h-3 md:h-5 relative overflow-hidden flex items-center">
@@ -44,9 +44,9 @@ export default function Home() {
 
         <div className="text-center z-10 space-y-24">
           <div className="flex flex-col items-center gap-12 animate-reveal">
-            <div className="w-16 h-16 md:w-24 md:h-24 relative overflow-hidden mix-blend-multiply brightness-150">
+            <div className="w-16 h-16 md:w-24 md:h-24 relative overflow-hidden mix-blend-lighten">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-highres-v7.jpg" 
                 alt="THOTHER Symbol"
                 className="w-full h-full object-contain"
               />
@@ -228,9 +228,9 @@ export default function Home() {
       <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
         <div className="space-y-24">
           <div className="flex flex-col items-center gap-12 opacity-90 select-none">
-            <div className="w-12 h-12 md:w-20 md:h-20 relative overflow-hidden mix-blend-multiply brightness-150">
+            <div className="w-12 h-12 md:w-20 md:h-20 relative overflow-hidden mix-blend-lighten">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-symbol-highres-v7.jpg" 
                 alt="THOTHER Symbol"
                 className="w-full h-full object-contain"
               />
@@ -257,9 +257,9 @@ export default function Home() {
         <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
           <div className="text-left space-y-12">
              <div className="flex items-center gap-4">
-               <div className="h-6 relative overflow-hidden mix-blend-multiply brightness-150 grayscale opacity-50">
+               <div className="h-6 relative overflow-hidden mix-blend-lighten grayscale opacity-50">
                   <img 
-                    src="https://claw.starryambition.com/8711438752/202603/thother-symbol-orange.jpg" 
+                    src="https://claw.starryambition.com/8711438752/202603/thother-symbol-highres-v7.jpg" 
                     alt="THOTHER Symbol"
                     className="h-full w-auto object-contain"
                   />
