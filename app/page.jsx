@@ -45,7 +45,7 @@ export default function Home() {
       </section>
 
       {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
-      <section id="about" className="bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden border-y border-white/5">
+      <section id="about" className="bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden">
         <div className="w-full md:w-1/2 p-12 md:p-32 z-10 flex flex-col justify-center">
           <div className="space-y-12">
             <p className="text-xs md:text-sm uppercase tracking-[1.5em] text-orange-500 font-black mb-12">About</p>
