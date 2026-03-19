@@ -158,7 +158,7 @@ export default function Home() {
                   className="w-full h-full object-cover transition-all duration-[3000ms] group-hover:scale-110 opacity-30 group-hover:opacity-60"
                 />
                 <div className="absolute bottom-12 left-12">
-                   <p className="text-[10px] tracking-[1.5em] uppercase text-white/20">The Collective Archive / 01</p>
+                   <p className="text-[8px] md:text-[10px] tracking-[2em] uppercase text-white/40 font-light">Collection</p>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60"></div>
               </div>
