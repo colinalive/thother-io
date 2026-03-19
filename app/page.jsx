@@ -8,13 +8,6 @@ export default function Home() {
       {/* 1. HERO REFINEMENT: Cinematic & Editorial */}
       <section className="relative flex flex-col items-center justify-center min-h-screen px-6 overflow-hidden transition-opacity duration-1000 ease-in-out">
         <div className="absolute inset-0 -z-10 bg-black">
-          {/* Main Editorial Hero Image */}
-          <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-hero-editorial-v12.jpg')] bg-cover bg-center grayscale brightness-[0.4] scale-105 transition-transform duration-[10000ms] ease-linear animate-slow-zoom"></div>
-          {/* Vignette & Gradients for Depth */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-60"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,black_100%)] opacity-80"></div>
-          {/* Controlled Orange Ambient Glow */}
-          <div className="absolute top-[30%] left-[50%] -translate-x-1/2 -translate-y-1/2 w-[60vw] h-[60vh] bg-orange-600/10 blur-[180px] rounded-full"></div>
         </div>
 
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
@@ -23,7 +16,7 @@ export default function Home() {
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                 alt="THOTHER Logo"
-                className="h-full w-auto object-contain mix-blend-screen opacity-60 hover:opacity-100 transition-opacity"
+                className="h-full w-auto object-contain mix-blend-screen opacity-100 transition-opacity"
               />
             </div>
           </Link>
@@ -36,7 +29,7 @@ export default function Home() {
 
         <div className="text-center z-10 space-y-24">
           <div className="flex flex-col items-center gap-12 animate-reveal">
-            <div className="w-[60vw] md:w-[45vw] mix-blend-screen drop-shadow-[0_0_30px_rgba(255,255,255,0.1)]">
+            <div className="w-[85vw] md:w-[70vw] mix-blend-screen">
               <img 
                 src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
                 alt="THOTHER Logo"
@@ -44,12 +37,9 @@ export default function Home() {
               />
             </div>
           </div>
-          <p className="text-[10px] md:text-sm font-light tracking-[0.8em] uppercase text-white/30 animate-reveal-delayed max-w-xl mx-auto leading-loose">
-            Digitally Sculpted. <br className="md:hidden" /> Physically Produced.
-          </p>
         </div>
 
-        <div className="absolute bottom-16 flex flex-col items-center gap-8 opacity-20 animate-pulse">
+        <div className="absolute bottom-16 flex flex-col items-center gap-8 opacity-20">
            <div className="w-px h-24 bg-gradient-to-b from-white to-transparent"></div>
         </div>
       </section>
