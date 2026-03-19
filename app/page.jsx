@@ -204,12 +204,12 @@ export default function Home() {
            
            <div className="grid grid-cols-2 gap-4">
               <div 
-                className="aspect-square bg-neutral-950 relative overflow-hidden grayscale opacity-30 group cursor-zoom-in"
+                className="aspect-square bg-neutral-950 relative overflow-hidden grayscale group cursor-zoom-in border border-white/5"
                 onClick={() => openLightbox('https://claw.starryambition.com/8711438752/202603/thother-red-shoes-v18.jpg')}
               >
                  <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother-red-shoes-v18.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
                  {/* Macro Overlay */}
-                 <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
+                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-1000"></div>
               </div>
              <div 
                 className="aspect-[3/4] bg-neutral-950 relative overflow-hidden border border-white/5 opacity-40 group cursor-zoom-in"
