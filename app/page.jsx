@@ -48,19 +48,30 @@ export default function Home() {
       <section id="about" className="min-h-screen bg-black flex flex-col md:flex-row items-center relative overflow-hidden border-y border-white/5">
         <div className="w-full md:w-1/2 p-12 md:p-32 z-10 space-y-24">
           <div className="space-y-12">
-            <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black mb-8">Concept</p>
+            <p className="text-[10px] uppercase tracking-[1em] text-orange-500 font-black mb-8">About</p>
             <h3 className="text-4xl md:text-[5vw] font-light leading-[1.1] tracking-tighter text-white">
               THOTHER is a design-led <br/> fashion brand built <br/> on 3D printing.
             </h3>
           </div>
           
           <div className="space-y-16 max-w-xl">
-            <p className="text-xl md:text-2xl font-light text-white/40 leading-relaxed">
-              We collaborate with designers to create digitally designed, physically produced pieces — from bags and footwear to art objects.
-            </p>
-            <p className="text-xl md:text-2xl font-light text-white/40 leading-relaxed">
-              By working with 3D printing, we rethink scale, waste, and production timelines — favoring small batches and design-led creation.
-            </p>
+            <div className="space-y-4">
+              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+                Digitally shaped. <br/> Physically produced.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+                Not mass-made. <br/> Not trend-driven.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="text-xl md:text-2xl font-light text-white/60 leading-relaxed">
+                Design comes first.
+              </p>
+            </div>
             
             <div className="pt-20">
               <p className="text-lg md:text-xl tracking-[0.4em] uppercase text-orange-500/60 italic font-light">
