@@ -278,13 +278,6 @@ export default function Home() {
       {/* 7. FOOTER (Cinematic Closure) */}
       <footer className="py-80 px-6 text-center space-y-60 bg-black border-t border-white/5">
         <div className="space-y-32">
-          <div className="w-[70vw] md:w-[50vw] mx-auto opacity-90 select-none bg-black">
-            <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
-              alt="THOTHER"
-              className="w-full h-auto object-contain"
-            />
-          </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-16">
             <Link href="https://thother.shop" className="group relative px-20 py-8 overflow-hidden">
                <div className="absolute inset-0 bg-white group-hover:bg-orange-600 transition-colors duration-700"></div>
@@ -293,27 +286,6 @@ export default function Home() {
             <Link href="https://www.instagram.com/th0therofficial/" className="text-[11px] uppercase tracking-[0.6em] font-black py-8 px-20 border border-white/10 hover:border-white transition-all duration-700">
               Follow Instagram
             </Link>
-          </div>
-        </div>
-        
-        <div className="max-w-[1800px] mx-auto pt-80 flex flex-col md:flex-row justify-between items-end gap-20 opacity-20 text-[11px] uppercase tracking-[0.6em] font-bold">
-          <div className="text-left space-y-12">
-             <div className="h-10 relative overflow-hidden bg-black grayscale opacity-50">
-                <img 
-                  src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
-                  alt="THOTHER"
-                  className="h-full w-auto object-contain"
-                />
-             </div>
-             <p className="text-white/60 tracking-[0.4em]">Design-Led Objects</p>
-          </div>
-          <div className="text-right space-y-8">
-             <p className="tracking-[0.2em]">London // Shanghai // Digital Space</p>
-             <div className="flex justify-end gap-12 text-[10px] text-white/60">
-                <Link href="/privacy" className="hover:text-white transition-colors duration-700">Privacy</Link>
-                <Link href="/terms" className="hover:text-white transition-colors duration-700">Terms</Link>
-                <p>© 2026</p>
-             </div>
           </div>
         </div>
       </footer>
