@@ -1,3 +1,5 @@
+'use client'
+import React from 'react'
 import Link from 'next/link'
 
 export default function Home() {
@@ -61,7 +63,7 @@ export default function Home() {
           </div>
           <div className="aspect-square bg-neutral-950 relative overflow-hidden group border border-white/5 grayscale opacity-40 hover:opacity-100 transition-all duration-1000">
              <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_about_material.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
-             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black"></div>
           </div>
         </div>
       </section>
@@ -138,6 +140,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_red_objects_shelf.jpg')] bg-cover bg-center grayscale hover:grayscale-0 transition-all duration-1000 group-hover:scale-110"></div>
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
                 {/* Visual Representation of Wireframe - Overlaying on real image now */}
+             </div>
            </div>
         </div>
       </section>
