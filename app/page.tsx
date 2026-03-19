@@ -119,7 +119,7 @@ export default function Home() {
            
            <div className="grid grid-cols-2 gap-4">
               <div className="aspect-square bg-neutral-950 relative overflow-hidden grayscale opacity-30 group">
-                 <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1558444479-c8482433068e?q=80&w=1000')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
+                 <div className="absolute inset-0 bg-[url('https://claw.starryambition.com/8711438752/202603/thother_shoe_display_alt.jpg')] bg-cover bg-center group-hover:scale-110 transition-transform duration-[5000ms]"></div>
                  {/* Macro Overlay */}
                  <div className="absolute inset-0 bg-black/40 group-hover:bg-transparent transition-colors duration-1000"></div>
               </div>
