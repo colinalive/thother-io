@@ -44,7 +44,7 @@ export default function Home() {
           <Link href="/" className="group flex items-center transition-all duration-700">
             <div className="h-6 md:h-10 relative overflow-hidden flex items-center">
               <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-logo-orange-hero-v25.jpg" 
+                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-footer-v29.jpg" 
                 alt="THOTHER Logo"
                 className="h-full w-auto object-contain mix-blend-screen opacity-100 transition-opacity"
               />
