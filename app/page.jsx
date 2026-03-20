@@ -35,11 +35,10 @@ export default function Home() {
         </div>
       )}
 
-      {/* 1. HERO REFINEMENT: Cinematic & Editorial */}
-      <section className="relative flex flex-col items-center justify-center min-h-screen px-6 overflow-hidden transition-opacity duration-1000 ease-in-out">
-        <div className="absolute inset-0 -z-10 bg-black">
-        </div>
-
+      {/* 1. HERO SECTION (Splash Reveal) - REMOVED PER USER REQUEST, TRANSITION DIRECTLY TO ABOUT */}
+      
+      {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
+      <section id="about" className="min-h-screen bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden pt-60 md:pt-80">
         <nav className="absolute top-0 w-full flex justify-between items-center p-8 md:p-16 z-50">
           <Link href="/" className="group flex items-center transition-all duration-700">
             <div className="h-6 md:h-10 relative overflow-hidden flex items-center">
@@ -56,26 +55,6 @@ export default function Home() {
             <Link href="#drops" className="hover:text-orange-500 transition-colors duration-500">Drops</Link>
           </div>
         </nav>
-
-        <div className="text-center z-10 space-y-24">
-          <div className="flex flex-col items-center gap-12 animate-reveal">
-            <div className="w-[85vw] md:w-[70vw] mix-blend-screen">
-              <img 
-                src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-highres-v9.jpg" 
-                alt="THOTHER Logo"
-                className="w-full h-auto object-contain"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-16 flex flex-col items-center gap-8 opacity-20">
-           <div className="w-px h-24 bg-gradient-to-b from-white to-transparent"></div>
-        </div>
-      </section>
-
-      {/* 2. ATMOSPHERE / MOOD (Editorial Campaign Section) */}
-      <section id="about" className="bg-black flex flex-col md:flex-row items-stretch relative overflow-hidden">
         <div className="w-full md:w-1/2 p-12 md:p-32 z-10 flex flex-col justify-center">
           <div className="space-y-12">
             <p className="text-xs md:text-sm uppercase tracking-[1.5em] text-orange-500 font-black mb-12">About</p>
