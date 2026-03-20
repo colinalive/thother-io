@@ -281,9 +281,9 @@ export default function Home() {
       {/* 7. FOOTER (Cinematic Closure) */}
       <footer className="pt-24 md:pt-40 pb-40 px-6 text-center bg-black">
         <div className="flex flex-col items-center">
-          <div className="w-[150px] md:w-[240px] opacity-100 mb-24 md:mb-40 relative z-0">
+          <div className="w-[200px] md:w-[320px] opacity-100 mb-24 md:mb-40 relative z-0">
             <img 
-              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-footer-v28.jpg" 
+              src="https://claw.starryambition.com/8711438752/202603/thother-combined-logo-footer-v29.jpg" 
               alt="THOTHER Combined Logo"
               className="w-full h-auto object-contain mx-auto"
               style={{ imageRendering: 'auto' }}
