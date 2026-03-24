@@ -269,7 +269,7 @@ export default function Home() {
             />
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 relative z-10">
-            <Link href="https://thother.shop/pages/about" className="group relative px-20 py-8 overflow-hidden w-full md:w-auto min-w-[200px]">
+            <Link href="https://thother.shop/collections/all" className="group relative px-20 py-8 overflow-hidden w-full md:w-auto min-w-[200px]">
                <div className="absolute inset-0 bg-white group-hover:bg-orange-600 transition-colors duration-700"></div>
                <span className="relative text-black group-hover:text-white text-[12px] uppercase tracking-[0.6em] font-black transition-colors duration-700">Enter Store</span>
             </Link>
